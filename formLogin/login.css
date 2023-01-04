@@ -1,5 +1,22 @@
 body {
-    background-color: #96c11f
+    background-color: rgb(221, 218, 218);
+}
+
+#logo {
+    position: absolute;
+    left: 44%;
+    top: 12%;
+    
+}
+
+h1 {
+    
+    font-size: 18px;
+    color: #f45b09;
+    font-family: Poppins;
+    position: absolute;
+    left: 43%;
+    top: 27%;
 }
 
 .input-container {
@@ -26,14 +43,17 @@ label {
 }
 
 form {
-    background-color: white;
+    background-color: rgb(221, 218, 218);
     max-width: 300px;
     width: 70%;
     padding: 20px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
+    border: 7px solid #f0732f;
+    border-radius: 20px;
+   
     
 }
 
@@ -46,7 +66,7 @@ form h3 {
 
 form input[type="text"],
 form input[type="password"] {
-    width: 100%;
+    width: 95%;
     height: 45px;
     border: 1px solid #ccc;
     padding-left: 10px;
@@ -77,5 +97,39 @@ form input[type="text"]:focus {
 
 form input[type="password"]:focus {
     outline: 0;
+}
+
+#enviar {
+    width: 50%;
+    margin: 20px 75px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+    #logo {
+        position: absolute;
+        left: 30%;
+        top: 12%;
+        
+    }
+    
+    h1 {
+        
+        font-size: 18px;
+        color: #f45b09;
+        font-family: Poppins;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+    }
+
+    #enviar {
+        width: 50%;
+        margin: 20px 68px;
+    }
+
+
+
 }
 
