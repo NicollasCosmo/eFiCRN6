@@ -109,8 +109,8 @@ form input[type="password"]:focus {
 
     #logo {
         position: absolute;
-        left: 30%;
-        top: 12%;
+        left: 28%;
+        top: 19%;
         
     }
     
@@ -120,8 +120,8 @@ form input[type="password"]:focus {
         color: #f45b09;
         font-family: Poppins;
         position: absolute;
-        left: 25%;
-        top: 25%;
+        left: 23%;
+        top: 32%;
     }
 
     #enviar {
